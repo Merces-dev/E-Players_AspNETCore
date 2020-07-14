@@ -5,7 +5,7 @@ using System.IO;
 using E_Players.Interfaces;
 namespace E_Players.Models
 {
-    public class Noticias: EplayersBase, INoticias
+    public class Noticias : EplayersBase, INoticias
     {
         public int IdNoticia { get; set; }
         public string Titulo { get; set; }
@@ -16,7 +16,8 @@ namespace E_Players.Models
         /// <summary>
         /// Cria a Pasta ou o arquivo
         /// </summary>
-        public Noticias(){
+        public Noticias()
+        {
             CreateFolderAndFile(PATH);
         }
         /// <summary>
@@ -43,7 +44,7 @@ namespace E_Players.Models
         /// <returns>Retorna lista de notícias</returns>
         public List<Noticias> ReadAll()
         {
-           List<Noticias> noticias = new List<Noticias>();
+            List<Noticias> noticias = new List<Noticias>();
             string[] linhas = File.ReadAllLines(PATH);
             foreach (var item in linhas)
             {
@@ -53,7 +54,7 @@ namespace E_Players.Models
                 noticia.Titulo = linha[1];
                 noticia.Texto = linha[2];
                 noticia.Imagem = linha[3];
-                
+
 
                 noticias.Add(noticia);
             }
@@ -68,7 +69,7 @@ namespace E_Players.Models
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == IdNoticia.ToString());
             linhas.Add(PrepararLinha(n));
-            RewriteCSV(PATH, linhas);  
+            RewriteCSV(PATH, linhas);
         }
         /// <summary>
         /// Deletar uma linha da Database
@@ -78,6 +79,7 @@ namespace E_Players.Models
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == IdNoticia.ToString());
-            RewriteCSV(PATH, linhas);        }
+            RewriteCSV(PATH, linhas);
+        }
     }
 }

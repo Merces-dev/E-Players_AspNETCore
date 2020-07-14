@@ -20521,6 +20521,11 @@
   "RootNamespace": "E_Players",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\giova\\Documents\\Projetos\\E-Players\\Views\\Noticias\\Index.cshtml",
+      "TargetPath": "Views\\Noticias\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\giova\\Documents\\Projetos\\E-Players\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -20538,6 +20543,11 @@
     {
       "FilePath": "c:\\Users\\giova\\Documents\\Projetos\\E-Players\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\giova\\Documents\\Projetos\\E-Players\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
