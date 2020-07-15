@@ -29,5 +29,12 @@ namespace E_Players.Controllers
             return LocalRedirect("~/Jogador");
      
         }  
+        [Route("[controller]/{id}")]
+        public IActionResult Excluir(int id)
+        {
+            jogadorModel.Delete(id);
+            ViewBag.Jogadores = jogadorModel.ReadAll();
+            return LocalRedirect("~/Jogador");
+        }
     }
 }
