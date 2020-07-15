@@ -20564,6 +20564,11 @@
       "FilePath": "c:\\Users\\giova\\Documents\\Projetos\\E-Players\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\giova\\Documents\\Projetos\\E-Players\\Views\\Jogador\\Index.cshtml",
+      "TargetPath": "Views\\Jogador\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

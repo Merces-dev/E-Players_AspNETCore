@@ -37,3 +37,4 @@ C:\Users\giova\Documents\Projetos\E-Players\obj\Debug\netcoreapp3.1\E-Players.ge
 C:\Users\giova\Documents\Projetos\E-Players\obj\Debug\netcoreapp3.1\E-Players.csproj.CopyComplete
 C:\Users\giova\Documents\Projetos\E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
 C:\Users\giova\Documents\Projetos\E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Noticias\Index.cshtml.g.cs
+C:\Users\giova\Documents\Projetos\E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Jogador\Index.cshtml.g.cs
